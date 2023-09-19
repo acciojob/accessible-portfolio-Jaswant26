@@ -1,2 +1,16 @@
 
 /* Your CSS Code here. */
+*{
+	font-family:monospace;
+	text-align:center;
+}
+:root{
+	background-color:beige;
+}
+h2 , h1{
+	color:red;
+}
+ul{
+	list-style:none;
+}
+

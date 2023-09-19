@@ -4,6 +4,8 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<title>Accessible Portfolio
+</title>
 </head>
 
 <body>
@@ -11,6 +13,36 @@
     <script type="text/javascript" src="./script.js">
 </script>
 
+	<header role="heading">
+		<h1>Accessible Portfolio</h1>
+	</header>
+	<nav role="navigation">
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+        </ul>
+    </nav>
+	<hr>
+	<main>
+		<section id="about">
+		<h2>Jaswant Singh Rawat</h2>	
+			<img role="img" src="https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29kZXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60"
+           width="400px"  alt="Self photo">
+			<p>I am a passionate frontend web developer aiming to create seamless
+          website using my tech skills and ability to create a single page
+          applications ussing HTML, CSS, jS and ReactJs. I am open to work and
+          wiling to secure a SDE job.</p>
+		</section>
+		<hr>
+		<section id="projects">
+			<h2>Projects</h2>
+			<ul role="list">
+				<li role="listitem">Project 1: Favourite city</li>
+				<li role="listitem">Project 2: Hero Section</li>
+				<li role="listitem">Project 3: Blintit Clone</li>
+				<li role="listitem">Project 4: Spotify Clone</li>
+			</ul>
+	</main>
 </body>
 
 </html>
